@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+<h1> Hero <span id="hscore">0</span>     -    <span id="escore">0</span> Computer </h1>
+      
+  
+    <div class="displayAttack">
+      <div class="attack">
+        <img id="heroAttack" src="./assets/Rock.svg">
+      </div>
+   
+      <div class="attack">
+        <img id="computerAttack" src="./assets/Rock.svg">
+      </div>
+    </div>
+   
+    <div class="action">
+      <input class="choice" type="image" src="./assets/Rock.svg" value="Rock" />
+      <input class="choice" type="image" src="./assets/Paper.svg" value="Paper" />
+      <input class="choice" type="image" src="./assets/Scissors.svg" value="Scissors" />
+    </div>
+  </div>
 </body>
 </html>
+
+
+  
+   
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>

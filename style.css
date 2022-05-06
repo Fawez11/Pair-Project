@@ -1,0 +1,64 @@
+div {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.imggame {
+
+  margin-top: -200px;
+  display: block; 
+margin-left: 35cm; 
+margin-right: 35cm; 
+border: 15px ridge blue; 
+padding: 5px; 
+}
+
+.char1{
+  margin-top: 100px;
+  position: relative; 
+  top: -500px;
+  left: -350px;
+}
+.char2{
+  margin-top: 100px;
+  position: relative; 
+  top: -951px;
+  left: 350px;
+}
+
+
+.vs{
+  margin-top: 525px;
+  position: relative; 
+  top: -2200px;
+  left:  -30px;
+  height: 200px;
+  width: 200px;
+}
+
+
+.game {
+
+  margin-top: -177px;
+  display: block; 
+margin-left: 31cm; 
+margin-right: 31cm; 
+position: relative;
+  top: -2009px; ;
+
+padding: 5px; 
+}
+
+
+
+.bot {
+
+  margin-top: -2000px;
+  display: block; 
+margin-left: 31cm; 
+margin-right: 31cm; 
+position: relative;
+  top: 20px; ;
+
+padding: 5px; }
